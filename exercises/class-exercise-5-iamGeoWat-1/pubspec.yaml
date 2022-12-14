@@ -1,0 +1,22 @@
+name: camera_example
+description: Camera example app
+
+environment:
+  sdk: '>=2.17.0-0 <3.0.0'
+
+dependencies:
+  camera: 0.7.0
+  flutter:
+    sdk: flutter
+  path_provider:
+  path:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/flippers-alpha.png
